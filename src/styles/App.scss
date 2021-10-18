@@ -1,7 +1,9 @@
-.container {
+.App {
     height: 100vh;
-    background: #e7e7e7;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1.5rem;
     align-items: center;
+    max-width: 80rem;
+    margin: auto;
 }

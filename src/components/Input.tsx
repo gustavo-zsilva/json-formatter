@@ -2,7 +2,10 @@ import '../styles/components/Input.scss'
 
 export function Input() {
     return (
-        <textarea name="" id="">
+        <textarea
+            className="Input"
+            
+        >
             fdsfadsdsadsad
         </textarea>
     )
